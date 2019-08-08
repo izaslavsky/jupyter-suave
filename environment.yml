@@ -1,0 +1,34 @@
+name: suave-jupyter-environment
+channels:
+  - conda-forge
+  - trentonoliphant
+  - mlgill
+dependencies:
+  - python
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - ipywidgets
+  - owslib
+  - geojson
+  - shapely
+  - geopandas
+  - geojsonio
+  - tensorflow
+  - tensorflow-gpu
+  - scikit-learn
+  - keras
+  - pip
+  - pip:
+    - imutils
+    - clarifai
+    - opencv-python-headless
+    - opencv-contrib-python-headless
+    
+
